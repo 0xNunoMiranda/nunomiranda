@@ -1,4 +1,4 @@
-import { Phone, Mail, Globe, MapPin } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -38,30 +38,6 @@ const Contact = () => {
                 </div>
               </a>
               
-              <a 
-                href="https://www.nunomiranda.dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-2xl hover:bg-accent transition-colors"
-              >
-                <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center flex-shrink-0">
-                  <Globe className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <div className="text-left">
-                  <p className="text-sm text-muted-foreground">Website</p>
-                  <p className="font-medium text-foreground">www.nunomiranda.dev</p>
-                </div>
-              </a>
-              
-              <div className="flex items-center gap-4 p-4">
-                <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <div className="text-left">
-                  <p className="text-sm text-muted-foreground">Localização</p>
-                  <p className="font-medium text-foreground">Portugal</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
