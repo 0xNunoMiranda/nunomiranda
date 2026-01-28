@@ -1,25 +1,25 @@
-import { Inbox, MessageSquare, FileText, BarChart3 } from "lucide-react";
+import { MessageCircle, ShoppingBag, CalendarCheck, PhoneCall } from "lucide-react";
 
 const services = [
   {
-    icon: Inbox,
-    title: "Organização de emails",
-    description: "Os emails chegam organizados por assunto e urgência. Sem ter de ler tudo para saber o que é importante."
+    icon: MessageCircle,
+    title: "Atendimento que responde por si",
+    description: "As perguntas mais frequentes dos seus clientes são respondidas automaticamente. WhatsApp, Instagram, Facebook — em qualquer canal, a qualquer hora."
   },
   {
-    icon: MessageSquare,
-    title: "Sugestões de resposta",
-    description: "Recebe propostas de resposta para pedidos frequentes. Revê, ajusta se precisar, e envia. Sempre com o seu controlo."
+    icon: ShoppingBag,
+    title: "Venda online sem parar",
+    description: "Uma loja simples onde os clientes fazem encomendas a qualquer hora. Recebe os pedidos organizados, prontos para preparar."
   },
   {
-    icon: FileText,
-    title: "Resumos claros",
-    description: "Pedidos longos ou confusos ficam resumidos em pontos simples. Percebe logo o que o cliente quer."
+    icon: CalendarCheck,
+    title: "Marcações sem telefone",
+    description: "Os clientes marcam diretamente na sua agenda online. Sem chamadas, sem trocas de mensagens. Recebe apenas a confirmação."
   },
   {
-    icon: BarChart3,
-    title: "Relatórios simples",
-    description: "Um resumo mensal com o que entrou, o que foi tratado, e o que ficou pendente. Sem gráficos complicados."
+    icon: PhoneCall,
+    title: "Chamadas e avisos automáticos",
+    description: "Lembretes de marcações, avisos de entrega ou confirmações — enviados automaticamente por chamada de voz ou mensagem."
   }
 ];
 
@@ -30,8 +30,8 @@ const Services = () => {
         <div className="text-center mb-12">
           <h2 className="section-title">Como posso ajudar</h2>
           <p className="section-subtitle mx-auto">
-            Ferramentas práticas para o dia a dia do seu negócio. 
-            Sem termos técnicos, sem complicações.
+            Automatizações que trabalham por si. 
+            Mais tempo livre, menos tarefas repetitivas.
           </p>
         </div>
         
