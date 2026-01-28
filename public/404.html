@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuno Miranda | Serviços de Organização Digital</title>
+    <meta name="description" content="Ajudo pequenas e médias empresas a organizar emails, pedidos e documentos. Menos trabalho manual, menos confusão, mais tempo para o que importa." />
+    <meta name="author" content="Nuno Miranda" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      var segmentCount = 1;
+      var location = window.location;
+      var redirect =
+        location.protocol +
+        "//" +
+        location.host +
+        location.pathname
+          .split("/")
+          .slice(0, 1 + segmentCount)
+          .join("/") +
+        "/?/" +
+        location.pathname
+          .slice(1)
+          .split("/")
+          .slice(segmentCount)
+          .join("/") +
+        (location.search ? "&" + location.search.slice(1).replace(/&/g, "~and~") : "") +
+        location.hash;
+      location.replace(redirect);
+    </script>
+  </body>
+</html>
