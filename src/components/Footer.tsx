@@ -42,14 +42,6 @@ const Footer = () => {
             >
               <Instagram className="w-5 h-5" />
             </a>
-            <a 
-              href="https://instagram.com/devSpotAcademy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
-              @devSpotAcademy
-            </a>
           </div>
         </div>
         
