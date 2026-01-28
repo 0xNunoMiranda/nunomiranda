@@ -17,8 +17,9 @@ const Pricing = () => {
           <div className="card-pricing">
             <div className="mb-6">
               <h3 className="text-xl font-semibold text-foreground">Plano Base</h3>
+              <p className="text-sm text-muted-foreground">Presença Digital Completa</p>
               <div className="mt-2">
-                <span className="text-3xl font-bold text-foreground">30€</span>
+                <span className="text-3xl font-bold text-foreground">10€</span>
                 <span className="text-muted-foreground"> / mês</span>
               </div>
             </div>
@@ -28,15 +29,23 @@ const Pricing = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">Atendimento automático num canal (WhatsApp ou Instagram)</span>
+                  <span className="text-foreground">
+                    <span className="font-semibold">Website completo</span> com as páginas essenciais do seu negócio
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">Respostas às perguntas mais frequentes</span>
+                  <span className="text-foreground">
+                    <span className="font-semibold">Loja online</span> pronta para vendas e encomendas
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">Encaminhamento para si quando necessário</span>
+                  <span className="text-foreground">Gestão do domínio e configuração inicial</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span className="text-foreground">Manutenção técnica anual incluída</span>
                 </li>
               </ul>
             </div>
@@ -44,8 +53,8 @@ const Pricing = () => {
             <div className="pt-6 border-t border-border">
               <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-3">Limites</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Até 300 conversas por mês</li>
-                <li>• 1 canal de atendimento</li>
+                <li>• 1 website + 1 loja online</li>
+                <li>• Até 25 produtos ou serviços</li>
                 <li>• Suporte por email</li>
               </ul>
             </div>
@@ -65,6 +74,7 @@ const Pricing = () => {
             
             <div className="mb-6">
               <h3 className="text-xl font-semibold">Plano Pro</h3>
+              <p className="text-sm opacity-80">Gestão e Automação de Informação</p>
               <div className="mt-2">
                 <span className="text-3xl font-bold">50€</span>
                 <span className="opacity-80"> / mês</span>
@@ -76,15 +86,17 @@ const Pricing = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>Agenda online com marcações automáticas</span>
+                  <span>Organização inteligente de documentos e ficheiros</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>Lembretes automáticos para clientes</span>
+                  <span>
+                    <span className="font-semibold">Assistência digital</span> na triagem de pedidos e informação
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>Até 3 canais de atendimento</span>
+                  <span>Fluxos de resposta rápida com encaminhamento automático</span>
                 </li>
               </ul>
             </div>
@@ -92,9 +104,9 @@ const Pricing = () => {
             <div className="pt-6 border-t border-primary-foreground/20">
               <p className="text-sm font-medium opacity-80 uppercase tracking-wide mb-3">Limites</p>
               <ul className="space-y-2 text-sm opacity-80">
-                <li>• Até 800 conversas por mês</li>
-                <li>• Até 150 marcações por mês</li>
-                <li>• Lembretes ilimitados</li>
+                <li>• Até 800 documentos organizados por mês</li>
+                <li>• Até 150 pedidos triados por mês</li>
+                <li>• Fluxos de triagem ilimitados</li>
                 <li>• Suporte prioritário</li>
               </ul>
             </div>
@@ -117,12 +129,12 @@ const Pricing = () => {
                 <MessageCircle className="w-5 h-5 text-accent-foreground" />
               </div>
               <div>
-                <h4 className="font-medium text-foreground">Loja online simples</h4>
+                <h4 className="font-medium text-foreground">Otimização da loja online</h4>
                 <p className="text-2xl font-bold text-foreground mt-1">+30€<span className="text-base font-normal text-muted-foreground"> / mês</span></p>
                 <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• Catálogo de produtos ou serviços</li>
-                  <li>• Receção de encomendas organizada</li>
-                  <li>• Notificações automáticas</li>
+                  <li>• Catálogo avançado de produtos ou serviços</li>
+                  <li>• Integração de pagamentos e envios</li>
+                  <li>• Relatórios de desempenho mensais</li>
                 </ul>
               </div>
             </div>
