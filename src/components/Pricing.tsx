@@ -1,4 +1,4 @@
-import { Check, MessageCircle, Settings } from "lucide-react";
+import { Check, MessageCircle, PhoneCall } from "lucide-react";
 
 const Pricing = () => {
   return (
@@ -28,15 +28,15 @@ const Pricing = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">Organização e triagem de emails</span>
+                  <span className="text-foreground">Atendimento automático num canal (WhatsApp ou Instagram)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">Sugestões de resposta (com validação humana)</span>
+                  <span className="text-foreground">Respostas às perguntas mais frequentes</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">Resumos claros de pedidos e mensagens</span>
+                  <span className="text-foreground">Encaminhamento para si quando necessário</span>
                 </li>
               </ul>
             </div>
@@ -44,9 +44,9 @@ const Pricing = () => {
             <div className="pt-6 border-t border-border">
               <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-3">Limites</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Até 500 emails por mês</li>
-                <li>• Uso normal de uma caixa de correio</li>
-                <li>• Suporte básico por email</li>
+                <li>• Até 300 conversas por mês</li>
+                <li>• 1 canal de atendimento</li>
+                <li>• Suporte por email</li>
               </ul>
             </div>
             
@@ -76,15 +76,15 @@ const Pricing = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>Assistente interno para documentos e procedimentos</span>
+                  <span>Agenda online com marcações automáticas</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>Relatórios mensais simples e organizados</span>
+                  <span>Lembretes automáticos para clientes</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>Acompanhamento mais próximo</span>
+                  <span>Até 3 canais de atendimento</span>
                 </li>
               </ul>
             </div>
@@ -92,10 +92,10 @@ const Pricing = () => {
             <div className="pt-6 border-t border-primary-foreground/20">
               <p className="text-sm font-medium opacity-80 uppercase tracking-wide mb-3">Limites</p>
               <ul className="space-y-2 text-sm opacity-80">
-                <li>• Até 1.000 emails por mês</li>
-                <li>• Até 50 documentos internos (máx. 100 páginas)</li>
-                <li>• Até 300 consultas internas por mês</li>
-                <li>• 1 relatório mensal incluído</li>
+                <li>• Até 800 conversas por mês</li>
+                <li>• Até 150 marcações por mês</li>
+                <li>• Lembretes ilimitados</li>
+                <li>• Suporte prioritário</li>
               </ul>
             </div>
             
@@ -117,25 +117,27 @@ const Pricing = () => {
                 <MessageCircle className="w-5 h-5 text-accent-foreground" />
               </div>
               <div>
-                <h4 className="font-medium text-foreground">Apoio via WhatsApp</h4>
-                <p className="text-2xl font-bold text-foreground mt-1">+20€<span className="text-base font-normal text-muted-foreground"> / mês</span></p>
+                <h4 className="font-medium text-foreground">Loja online simples</h4>
+                <p className="text-2xl font-bold text-foreground mt-1">+30€<span className="text-base font-normal text-muted-foreground"> / mês</span></p>
                 <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• Até 300 mensagens por mês</li>
-                  <li>• Sugestão de respostas, sempre com validação</li>
+                  <li>• Catálogo de produtos ou serviços</li>
+                  <li>• Receção de encomendas organizada</li>
+                  <li>• Notificações automáticas</li>
                 </ul>
               </div>
             </div>
             
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center flex-shrink-0">
-                <Settings className="w-5 h-5 text-accent-foreground" />
+                <PhoneCall className="w-5 h-5 text-accent-foreground" />
               </div>
               <div>
-                <h4 className="font-medium text-foreground">Automações específicas</h4>
-                <p className="text-base text-muted-foreground mt-1">Preço ajustado conforme necessidade</p>
+                <h4 className="font-medium text-foreground">Chamadas automáticas</h4>
+                <p className="text-base text-muted-foreground mt-1">Preço ajustado ao volume</p>
                 <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• Mensagens de voz, integrações especiais</li>
-                  <li>• Limites definidos antes de avançar</li>
+                  <li>• Lembretes de marcações por voz</li>
+                  <li>• Confirmações automáticas</li>
+                  <li>• Avisos urgentes</li>
                 </ul>
               </div>
             </div>

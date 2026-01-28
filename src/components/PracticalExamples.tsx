@@ -4,23 +4,23 @@ const examples = [
   {
     icon: Scissors,
     business: "Barbearia",
-    before: "O João passava 30 minutos por dia a responder às mesmas perguntas: horários, preços, disponibilidade. E ainda perdia marcações por não ver mensagens a tempo.",
-    after: "Agora, as mensagens chegam organizadas. As perguntas frequentes têm sugestões de resposta prontas. O João só revê e envia — em segundos.",
-    timeSaved: "~25 min/dia"
+    before: "O João atendia 20 chamadas por dia só para marcar cortes. À noite, ainda respondia a mensagens no Instagram. Perdia marcações por não ver a tempo.",
+    after: "Agora, os clientes marcam sozinhos na agenda online. O João só vê as confirmações. E as perguntas frequentes são respondidas automaticamente.",
+    timeSaved: "~45 min/dia"
   },
   {
     icon: Flower2,
     business: "Florista",
-    before: "A Maria recebia pedidos de casamentos por email, WhatsApp e telefone. Alguns tinham 10 parágrafos. Era fácil perder detalhes ou esquecer prazos.",
-    after: "Cada pedido é resumido com data, tipo de flores, local e orçamento. Tudo organizado numa lista clara. Sem reler emails de 500 palavras.",
-    timeSaved: "~30 min/dia"
+    before: "A Maria recebia encomendas por WhatsApp, telefone e Instagram. Anotava tudo à mão. Às vezes confundia pedidos ou esquecia de confirmar.",
+    after: "Os clientes fazem encomendas numa loja online simples. A Maria recebe tudo organizado: flores, data, morada. Sem perder tempo a anotar.",
+    timeSaved: "~1 hora/dia"
   },
   {
     icon: UtensilsCrossed,
     business: "Restaurante",
-    before: "O António recebia dezenas de emails de fornecedores, reservas e questões. Misturava-se tudo. Às vezes, só via um pedido urgente no dia seguinte.",
-    after: "Os emails chegam separados por tipo: fornecedores, reservas, reclamações. As urgências aparecem primeiro. O António age mais rápido e com menos stress.",
-    timeSaved: "~20 min/dia"
+    before: "O António perdia reservas porque não atendia o telefone durante o serviço. Os clientes desistiam ou iam a outro sítio.",
+    after: "As reservas entram automaticamente. Os clientes recebem confirmação e lembrete por mensagem. O António só consulta a lista antes de abrir.",
+    timeSaved: "~30 min/dia"
   }
 ];
 
@@ -30,7 +30,7 @@ const PracticalExamples = () => {
       <div className="text-center mb-12">
         <h2 className="section-title">Na Prática</h2>
         <p className="section-subtitle mx-auto">
-          Exemplos reais de como estes serviços ajudam negócios locais a poupar tempo todos os dias.
+          Exemplos reais de como estas automatizações libertam tempo a negócios locais.
         </p>
       </div>
       
