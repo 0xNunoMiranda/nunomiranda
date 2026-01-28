@@ -19,7 +19,7 @@ const Pricing = () => {
               <h3 className="text-xl font-semibold text-foreground">Plano Base</h3>
               <p className="text-sm text-muted-foreground">Presença Digital Completa</p>
               <div className="mt-2">
-                <span className="text-3xl font-bold text-foreground">10€</span>
+                <span className="text-3xl font-bold text-foreground">10 euros</span>
                 <span className="text-muted-foreground"> / mês</span>
               </div>
             </div>
